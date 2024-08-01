@@ -1,0 +1,380 @@
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <title>
+   Player Performance Analysis - Emam Ashour
+  </title>
+  <script src="https://cdn.tailwindcss.com">
+  </script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&amp;display=swap" rel="stylesheet"/>
+  <style>
+   body {
+            font-family: 'Roboto', sans-serif;
+        }
+  </style>
+ </head>
+ <body class="bg-gray-100 flex items-center justify-center min-h-screen">
+  <div class="bg-white p-6 rounded-lg shadow-lg flex flex-col items-center w-full max-w-4xl">
+   <div class="flex items-center justify-between w-full mb-4">
+    <h1 class="text-3xl font-bold text-green-500">
+     AEye
+    </h1>
+   </div>
+   <div class="relative mb-4">
+    <img alt="Emam Ashour in action on the football field" class="rounded-lg border-4 border-green-500" height="600" src="https://pbs.twimg.com/media/F1WTjjWWwAwgBNx.jpg:large" width="500"/>
+   </div>
+   <div class="text-center mb-6">
+    <h2 class="text-2xl font-bold text-gray-800">
+     Emam Ashour - Match Statistics
+    </h2>
+   </div>
+   <div class="grid grid-cols-1 md:grid-cols-2 gap-4 w-full mb-6">
+    <div class="bg-gray-200 p-4 rounded-lg">
+     <div class="text-gray-700 text-lg mb-4">
+      Minutes played:
+     </div>
+     <div class="flex items-center justify-center mb-2">
+      <i class="fas fa-stopwatch text-2xl text-black">
+      </i>
+      <span class="text-4xl font-bold text-green-500 ml-2">
+       90'
+      </span>
+     </div>
+    </div>
+    <div class="bg-gray-200 p-4 rounded-lg">
+     <div class="text-gray-700 text-lg mb-4">
+      Goals:
+     </div>
+     <div class="flex items-center justify-center mb-2">
+      <i class="fas fa-futbol text-2xl text-black">
+      </i>
+      <span class="text-4xl font-bold text-green-500 ml-2">
+       0
+      </span>
+     </div>
+    </div>
+    <div class="bg-gray-200 p-4 rounded-lg">
+     <div class="text-gray-700 text-lg mb-4">
+      Assists:
+     </div>
+     <div class="flex items-center justify-center mb-2">
+      <i class="fas fa-passport text-2xl text-black">
+      </i>
+      <span class="text-4xl font-bold text-green-500 ml-2">
+       0
+      </span>
+     </div>
+    </div>
+    <div class="bg-gray-200 p-4 rounded-lg">
+     <div class="text-gray-700 text-lg mb-4">
+      Touches:
+     </div>
+     <div class="flex items-center justify-center mb-2">
+      <i class="fas fa-hand-pointer text-2xl text-black">
+      </i>
+      <span class="text-4xl font-bold text-green-500 ml-2">
+       46
+      </span>
+     </div>
+    </div>
+    <div class="bg-gray-200 p-4 rounded-lg">
+     <div class="text-gray-700 text-lg mb-4">
+      Accurate passes:
+     </div>
+     <div class="flex items-center justify-center mb-2">
+      <i class="fas fa-passport text-2xl text-black">
+      </i>
+      <span class="text-4xl font-bold text-green-500 ml-2">
+       24/32 (75%)
+      </span>
+     </div>
+    </div>
+    <div class="bg-gray-200 p-4 rounded-lg">
+     <div class="text-gray-700 text-lg mb-4">
+      Key passes:
+     </div>
+     <div class="flex items-center justify-center mb-2">
+      <i class="fas fa-key text-2xl text-black">
+      </i>
+      <span class="text-4xl font-bold text-green-500 ml-2">
+       0
+      </span>
+     </div>
+    </div>
+    <div class="bg-gray-200 p-4 rounded-lg">
+     <div class="text-gray-700 text-lg mb-4">
+      Crosses (accurate):
+     </div>
+     <div class="flex items-center justify-center mb-2">
+      <i class="fas fa-exchange-alt text-2xl text-black">
+      </i>
+      <span class="text-4xl font-bold text-green-500 ml-2">
+       1 (1)
+      </span>
+     </div>
+    </div>
+    <div class="bg-gray-200 p-4 rounded-lg">
+     <div class="text-gray-700 text-lg mb-4">
+      Long balls (accurate):
+     </div>
+     <div class="flex items-center justify-center mb-2">
+      <i class="fas fa-long-arrow-alt-right text-2xl text-black">
+      </i>
+      <span class="text-4xl font-bold text-green-500 ml-2">
+       4 (2)
+      </span>
+     </div>
+    </div>
+    <div class="bg-gray-200 p-4 rounded-lg">
+     <div class="text-gray-700 text-lg mb-4">
+      Shots on target:
+     </div>
+     <div class="flex items-center justify-center mb-2">
+      <i class="fas fa-bullseye text-2xl text-black">
+      </i>
+      <span class="text-4xl font-bold text-green-500 ml-2">
+       1
+      </span>
+     </div>
+    </div>
+    <div class="bg-gray-200 p-4 rounded-lg">
+     <div class="text-gray-700 text-lg mb-4">
+      Shots off target:
+     </div>
+     <div class="flex items-center justify-center mb-2">
+      <i class="fas fa-times-circle text-2xl text-black">
+      </i>
+      <span class="text-4xl font-bold text-green-500 ml-2">
+       1
+      </span>
+     </div>
+    </div>
+    <div class="bg-gray-200 p-4 rounded-lg">
+     <div class="text-gray-700 text-lg mb-4">
+      Shots blocked:
+     </div>
+     <div class="flex items-center justify-center mb-2">
+      <i class="fas fa-shield-alt text-2xl text-black">
+      </i>
+      <span class="text-4xl font-bold text-green-500 ml-2">
+       0
+      </span>
+     </div>
+    </div>
+    <div class="bg-gray-200 p-4 rounded-lg">
+     <div class="text-gray-700 text-lg mb-4">
+      Dribble attempts (successful):
+     </div>
+     <div class="flex items-center justify-center mb-2">
+      <i class="fas fa-running text-2xl text-black">
+      </i>
+      <span class="text-4xl font-bold text-green-500 ml-2">
+       1 (0)
+      </span>
+     </div>
+    </div>
+    <div class="bg-gray-200 p-4 rounded-lg">
+     <div class="text-gray-700 text-lg mb-4">
+      Ground duels (won):
+     </div>
+     <div class="flex items-center justify-center mb-2">
+      <i class="fas fa-shoe-prints text-2xl text-black">
+      </i>
+      <span class="text-4xl font-bold text-green-500 ml-2">
+       7 (3)
+      </span>
+     </div>
+    </div>
+    <div class="bg-gray-200 p-4 rounded-lg">
+     <div class="text-gray-700 text-lg mb-4">
+      Aerial duels (won):
+     </div>
+     <div class="flex items-center justify-center mb-2">
+      <i class="fas fa-arrow-up text-2xl text-black">
+      </i>
+      <span class="text-4xl font-bold text-green-500 ml-2">
+       1 (1)
+      </span>
+     </div>
+    </div>
+    <div class="bg-gray-200 p-4 rounded-lg">
+     <div class="text-gray-700 text-lg mb-4">
+      Possession lost:
+     </div>
+     <div class="flex items-center justify-center mb-2">
+      <i class="fas fa-hand-holding text-2xl text-black">
+      </i>
+      <span class="text-4xl font-bold text-green-500 ml-2">
+       14
+      </span>
+     </div>
+    </div>
+    <div class="bg-gray-200 p-4 rounded-lg">
+     <div class="text-gray-700 text-lg mb-4">
+      Fouls committed:
+     </div>
+     <div class="flex items-center justify-center mb-2">
+      <i class="fas fa-exclamation-circle text-2xl text-black">
+      </i>
+      <span class="text-4xl font-bold text-green-500 ml-2">
+       0
+      </span>
+     </div>
+    </div>
+    <div class="bg-gray-200 p-4 rounded-lg">
+     <div class="text-gray-700 text-lg mb-4">
+      Fouls won:
+     </div>
+     <div class="flex items-center justify-center mb-2">
+      <i class="fas fa-handshake text-2xl text-black">
+      </i>
+      <span class="text-4xl font-bold text-green-500 ml-2">
+       3
+      </span>
+     </div>
+    </div>
+    <div class="bg-gray-200 p-4 rounded-lg">
+     <div class="text-gray-700 text-lg mb-4">
+      Clearances:
+     </div>
+     <div class="flex items-center justify-center mb-2">
+      <i class="fas fa-broom text-2xl text-black">
+      </i>
+      <span class="text-4xl font-bold text-green-500 ml-2">
+       0
+      </span>
+     </div>
+    </div>
+    <div class="bg-gray-200 p-4 rounded-lg">
+     <div class="text-gray-700 text-lg mb-4">
+      Blocked shots:
+     </div>
+     <div class="flex items-center justify-center mb-2">
+      <i class="fas fa-shield-alt text-2xl text-black">
+      </i>
+      <span class="text-4xl font-bold text-green-500 ml-2">
+       0
+      </span>
+     </div>
+    </div>
+    <div class="bg-gray-200 p-4 rounded-lg">
+     <div class="text-gray-700 text-lg mb-4">
+      Interceptions:
+     </div>
+     <div class="flex items-center justify-center mb-2">
+      <i class="fas fa-hand-paper text-2xl text-black">
+      </i>
+      <span class="text-4xl font-bold text-green-500 ml-2">
+       0
+      </span>
+     </div>
+    </div>
+    <div class="bg-gray-200 p-4 rounded-lg">
+     <div class="text-gray-700 text-lg mb-4">
+      Total tackles:
+     </div>
+     <div class="flex items-center justify-center mb-2">
+      <i class="fas fa-tachometer-alt text-2xl text-black">
+      </i>
+      <span class="text-4xl font-bold text-green-500 ml-2">
+       0
+      </span>
+     </div>
+    </div>
+    <div class="bg-gray-200 p-4 rounded-lg">
+     <div class="text-gray-700 text-lg mb-4">
+      Dribbled past:
+     </div>
+     <div class="flex items-center justify-center mb-2">
+      <i class="fas fa-running text-2xl text-black">
+      </i>
+      <span class="text-4xl font-bold text-green-500 ml-2">
+       1
+      </span>
+     </div>
+    </div>
+   </div>
+   <div class="bg-white p-6 rounded-lg shadow-lg mt-6 w-full">
+    <h2 class="text-2xl font-bold text-gray-800 mb-4">
+     Professional Analysis
+    </h2>
+    <div class="mb-4">
+     <h3 class="text-xl font-semibold text-gray-700 mb-2">
+      Strengths
+     </h3>
+     <ul class="list-disc list-inside text-gray-700">
+      <li>
+       Passing Accuracy: Completed 24 out of 32 passes with a 75% accuracy rate, showing reliability in distribution.
+      </li>
+      <li>
+       Crossing and Long Balls: Delivered 1 accurate cross out of 1 attempt and completed 2 out of 4 long balls, indicating effective delivery from wide and deep positions.
+      </li>
+      <li>
+       Winning Fouls: Won 3 fouls, demonstrating an ability to draw fouls and relieve pressure from the team.
+      </li>
+      <li>
+       Aerial Duels: Won the only aerial duel contested, showing competency in aerial challenges.
+      </li>
+     </ul>
+    </div>
+    <div class="mb-4">
+     <h3 class="text-xl font-semibold text-gray-700 mb-2">
+      Areas for Improvement
+     </h3>
+     <ul class="list-disc list-inside text-gray-700">
+      <li>
+       Goal Contribution: No goals or assists in the match, suggesting a need to enhance offensive impact.
+      </li>
+      <li>
+       Possession Retention: Lost possession 14 times, highlighting a significant area for improvement in ball control and decision-making under pressure.
+      </li>
+      <li>
+       Dribbling Success: Failed to complete the only dribble attempt, indicating a need to improve dribbling skills in 1v1 situations.
+      </li>
+      <li>
+       Defensive Contribution: No interceptions or tackles, which suggests a need to contribute more defensively to support the team.
+      </li>
+      <li>
+       Ground Duels: Won only 3 out of 7 ground duels, pointing to an area that requires better physical engagement and positioning.
+      </li>
+     </ul>
+    </div>
+    <div class="mb-4">
+     <h3 class="text-xl font-semibold text-gray-700 mb-2">
+      Development Recommendations
+     </h3>
+     <ul class="list-disc list-inside text-gray-700">
+      <li>
+       Offensive Drills: Focus on drills that enhance offensive positioning and finishing to increase goal contributions.
+      </li>
+      <li>
+       Possession Training: Engage in exercises that improve ball retention and decision-making to reduce the number of times possession is lost.
+      </li>
+      <li>
+       Dribbling Practice: Increase training on dribbling techniques to boost confidence and success in 1v1 situations.
+      </li>
+      <li>
+       Defensive Workouts: Incorporate defensive drills to improve tackling and interception skills, contributing more to the team's defensive efforts.
+      </li>
+      <li>
+       Ground Duel Techniques: Work on physical engagement and positioning to win a higher percentage of ground duels.
+      </li>
+     </ul>
+    </div>
+    <div>
+     <h3 class="text-xl font-semibold text-gray-700 mb-2">
+      Rating
+     </h3>
+     <p class="text-gray-700">
+      Overall Rating: 6.5/10
+     </p>
+     <p class="text-gray-700">
+      This performance shows a player with a solid foundation in passing and ball delivery but requires significant improvement in offensive contribution, possession retention, and defensive efforts. By focusing on the recommended areas, the player can enhance their overall performance and impact on the field.
+     </p>
+    </div>
+   </div>
+  </div>
+ </body>
+</html>
